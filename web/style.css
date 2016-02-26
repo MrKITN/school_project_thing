@@ -83,5 +83,6 @@ h1, h2 {
 }
 
 #content p {
-	padding: 0 8px;
+	padding: 0 32px;
+	text-indent: 48px;
 }
