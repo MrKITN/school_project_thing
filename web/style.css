@@ -15,6 +15,7 @@ body {
 h1, h2 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	margin: 0.125em 0;
 }
 
 #leftpane {
@@ -85,4 +86,8 @@ h1, h2 {
 #content p {
 	padding: 0 32px;
 	text-indent: 48px;
+}
+
+#content h2 {
+	text-indent: 24px;
 }
