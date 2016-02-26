@@ -1,8 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic);
+
 body {
 	overflow: hidden;
 	margin: 0px;
 	padding: 0px;
 	background-color: #111;
+}
+
+* {
+	font-family: 'Noto', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 }
 
 #leftpane {
@@ -41,7 +53,7 @@ body {
 }
 
 .pane-item--selected span {
-	font-weight: bold;
+	font-style: italic;
 }
 
 #content {
