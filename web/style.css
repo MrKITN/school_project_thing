@@ -1,10 +1,15 @@
+body {
+	overflow: hidden;
+}
+
 #leftpane {
 	position: absolute;
 	top: 0;
 	left: 0;
 	
-	width: 30%;
+	width: 25%;
 	height: 100%;
+	max-height: 100%;
 	
 	background-color: #111;
 	color: white;
@@ -27,10 +32,14 @@
 #content {
 	position: absolute;
 	top: 0;
-	left: 30%;
+	left: 25%;
 	
-	width: 70%;
+	padding: 4px;
+	
+	width: 75%;
+	max-width: 75%;
 	height: 100%;
+	max-height: 100%;
 	
 	background-color: #EEE;
 }
