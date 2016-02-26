@@ -1,5 +1,7 @@
 body {
 	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
 }
 
 #leftpane {
@@ -42,4 +44,19 @@ body {
 	max-height: 100%;
 	
 	background-color: #EEE;
+}
+
+#title {
+	display: inline-block;
+	width: 100%;
+	
+	background-color: #FFF;
+	margin: -4px;
+	box-shadow: rgba(0,0,0,0.12) 0px 2px 4px;
+	
+	padding: 8px;
+}
+
+#content p {
+	padding: 8px;
 }
