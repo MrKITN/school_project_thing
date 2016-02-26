@@ -94,3 +94,22 @@ h1, h2, h3, h4, h5, h6, h7 {
 #content h2 {
 	text-indent: 24px;
 }
+
+/* Mobile Phone Specific CSS */
+@media only screen and (max-device-width: 480px) {
+	/* Left pane is now top pane */
+	/* TODO: Collapsing top pane maybe? */
+	#leftpane {
+		position: initial;
+		width: 100%;
+		max-height: unset;
+	}
+	
+	#content {
+		position: initial;
+		width: 100%;
+		max-width: unset;
+		height: unset;
+		max-height: unset;
+	}
+}
