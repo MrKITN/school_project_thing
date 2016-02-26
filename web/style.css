@@ -25,6 +25,7 @@ body {
 	height: 3em;
 	
 	text-align: center;
+	background-color: rgba(255,255,255,0.1);
 }
 
 .pane-item span {
@@ -36,7 +37,7 @@ body {
 }
 
 .pane-item--selected {
-	background-color: rgba(255,255,255,0.1);
+	background-color: rgba(255,255,255,0.2);
 }
 
 .pane-item--selected span {
